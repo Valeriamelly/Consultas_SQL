@@ -2,7 +2,7 @@
 Creación de tablas de dimensiones y hechos para analizar datos de ventas en la base de datos Northwind en base a requerimientos, se aborda también la inserción de datos, y respectivas consultas. 
 ------------
 
-:tw-1f4e2: **Recomendación: Sigue el orden en el que están cargados los archivos.
+:small_red_triangle_down: **Recomendación: Sigue el orden en el que están cargados los archivos.
 Si deseas saber más te dejo mi plantilla de Notion: [Explicación de Consultas SQL](https://past-scapula-909.notion.site/Consultas-SQL-b94323007b0644c3a197feffa6be48a4 "Explicación de Consultas SQL")**
 
 ------------
