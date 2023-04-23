@@ -4,7 +4,7 @@ Creación de tablas de dimensiones y hechos para analizar datos de ventas en la 
 
 :small_red_triangle_down: **Recomendación: Sigue el orden en el que están cargados los archivos y no olvides cargar la base de datos Northwind.**
 
-Si deseas saber más te dejo mi plantilla de Notion: [Explicación de Consultas SQL](https://past-scapula-909.notion.site/Consultas-SQL-b94323007b0644c3a197feffa6be48a4 "Explicación de Consultas SQL")
+Si deseas saber más te dejo mi plantilla de Notion: [Explicación de Consultas SQL](https://valmelly.notion.site/Consultas-SQL-b94323007b0644c3a197feffa6be48a4"Explicación de Consultas SQL")
 
 
 
