@@ -6,7 +6,7 @@ Creación de tablas de dimensiones y hechos para analizar datos de ventas en la 
 
 Si deseas saber más te dejo mi plantilla de Notion: [Explicación de Consultas SQL](https://past-scapula-909.notion.site/Consultas-SQL-b94323007b0644c3a197feffa6be48a4 "Explicación de Consultas SQL")
 
-------------
+
 
 - **Requerimiento 1: Cantidad total de productos vendidos por categoría, proveedor y fecha (día, mes y año).**
 
