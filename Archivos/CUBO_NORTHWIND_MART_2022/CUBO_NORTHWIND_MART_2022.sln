@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CUBO_NORTHWIND_MART_2022", "CUBO_NORTHWIND_MART_2022.dwproj", "{E02C9FA3-C350-4D79-8D27-763F04FFE034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E02C9FA3-C350-4D79-8D27-763F04FFE034}.Development|Default.ActiveCfg = Development
+		{E02C9FA3-C350-4D79-8D27-763F04FFE034}.Development|Default.Build.0 = Development
+		{E02C9FA3-C350-4D79-8D27-763F04FFE034}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DEF13B9-FA21-44E5-861D-76DFD1612EF3}
+	EndGlobalSection
+EndGlobal

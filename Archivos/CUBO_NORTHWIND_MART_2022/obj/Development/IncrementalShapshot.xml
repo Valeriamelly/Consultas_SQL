@@ -1,0 +1,117 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>CUBO_NORTHWIND_MART_2022</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>uJ4mpK3DzTDVUjxX0jo+0yAuvYU=28/05/2022 14:19:0528/05/2022 13:58:47</TimeStamp>
+        <ID>
+          <String>ORIGEN_Northwind Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>+7r6cEisMIjb+exfuzxLlFheHS8=28/05/2022 14:00:2928/05/2022 14:00:29</TimeStamp>
+        <ID>
+          <String>VISTA CLIENTE TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>j/e4D7mq/kqEsaINHN9z0dUsYaE=28/05/2022 14:09:0528/05/2022 14:02:07</TimeStamp>
+        <ID>
+          <String>VISTA Northwind Mart</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2HEX0PuIelDCx+XqkaKGThSH6j8=28/05/2022 14:15:4228/05/2022 14:09:05</TimeStamp>
+        <ID>
+          <String>Customer Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pAAtBTvpJkkyD/rZr1104uQzmhg=28/05/2022 14:17:1828/05/2022 14:09:05</TimeStamp>
+        <ID>
+          <String>Time Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EEyIm0QkkZqeXDChMx6zPCslNHQ=28/05/2022 14:23:2628/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>Employee Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>dn04SP5RhIfvUMthOP/E/wP/qeE=28/05/2022 14:23:2628/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>Shipper Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SDfFRdCtCYTegjbCeUVMBqYwccQ=28/05/2022 14:23:2628/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>Product Dim</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XPXA1WVhFVck1HWkCkXwFfM3q2I=28/05/2022 14:24:4528/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>Customer Dim 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hEiPVsujQA8OJ6d8A0Zngn3INKc=28/05/2022 14:24:4528/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>Time Dim 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>lLIuN+Ah5DrryC5cFNTFu0bW4uQ=28/05/2022 14:17:1828/05/2022 14:09:05SJWhzvpmio48PtWxPVWYsk4HxBA=28/05/2022 14:09:0528/05/2022 14:09:05</TimeStamp>
+        <ID>
+          <String>CUBO DE LA VISTA CLIENTE TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>jbD/QJOODSvFA0/6obpW4kHRyIU=28/05/2022 14:24:4528/05/2022 14:10:27FnXf+qU/m/Le6ypzzhSXvFjskz8=28/05/2022 14:10:2728/05/2022 14:10:27</TimeStamp>
+        <ID>
+          <String>CUBO Northwind Mart 2022</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>25GI5rie2idrCszdZMYcAODDbWU=28/05/2022 13:53:3528/05/2022 13:53:35</TimeStamp>
+      <ID>
+        <String>CUBO_NORTHWIND_MART_2022</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-05-28T19:25:11.16Z</LastDeployed>
+</DeploymentSnapshot>
